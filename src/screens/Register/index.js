@@ -43,7 +43,7 @@ export default function Register({ navigation }) {
                     <Text>Already have an account?</Text>
                     <TouchableOpacity
                         style={styles.goLink}
-                        onPress={() => console.log(navigation.navigate('Login'))}
+                        onPress={() => navigation.navigate('Login')}
                     >
                         <Text style={styles.goText}>Login</Text>
                     </TouchableOpacity>

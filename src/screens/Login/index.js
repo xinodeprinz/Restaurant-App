@@ -30,7 +30,7 @@ export default function Login({ navigation }) {
                     <Text>Don't have an account?</Text>
                     <TouchableOpacity
                         style={styles.goLink}
-                        onPress={() => console.log(navigation.navigate('Register'))}
+                        onPress={() => navigation.navigate('Register')}
                     >
                         <Text style={styles.goText}>Register</Text>
                     </TouchableOpacity>
