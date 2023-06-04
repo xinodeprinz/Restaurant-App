@@ -1,3 +1,5 @@
 export function formatValue(value) {
-  return `R$ ${value.toFixed(2).replace(".", ",")}`;
+  return `${value} XAF`;
 }
+
+// return `${value.toFixed(2).replace(".", ",")} XAF`;

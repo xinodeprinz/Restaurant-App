@@ -1,25 +1,25 @@
 [
     {
-    "id": "1",
+        "id": "1",
         "name": "Pizza",
         "img": "https://imagensemoldes.com.br/wp-content/uploads/2020/04/Pizza-PNG-1024x553.png",
-        "color": "#7FFFD4",
+        "color": "#7FFFD4"
     },
     {
-    "id": "2",
-        "name": "Lanche",
+        "id": "2",
+        "name": "Vegetables",
         "img": "https://imagensemoldes.com.br/wp-content/uploads/2020/04/Pizza-PNG-1024x553.png",
         "color": "#F4A460"
     },
     {
-    "id": "3",
-        "name": "Açaí",
+        "id": "3",
+        "name": "Deserts",
         "img": "https://imagensemoldes.com.br/wp-content/uploads/2020/04/Pizza-PNG-1024x553.png",
         "color": "#F0E68C"
     },
     {
-    "id": "4",
-        "name": "Mercado",
+        "id": "4",
+        "name": "African cuisine",
         "img": "https://imagensemoldes.com.br/wp-content/uploads/2020/04/Pizza-PNG-1024x553.png",
         "color": "#FA8072"
     }

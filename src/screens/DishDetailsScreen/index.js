@@ -31,7 +31,7 @@ const DishDetailsScreen = () => {
       <Image style={styles.image} source={{ uri: dish.image }} />
       <Text style={styles.title}>{dish.name}</Text>
       <Text style={styles.description}>{dish.description}</Text>
-      <Text style={styles.price}>{ formatValue(dish.price)}</Text>
+      <Text style={styles.price}>{formatValue(dish.price)}</Text>
       <View style={styles.separator} />
       <View style={styles.row}>
         <View style={styles.quantityGroup}>
@@ -54,7 +54,7 @@ const DishDetailsScreen = () => {
           style={styles.button}
         >
           <Text style={styles.buttonText}>
-            Adicionar  {getTotalPrice()}
+            Total: {getTotalPrice()}
           </Text>
         </Pressable>
       </View>

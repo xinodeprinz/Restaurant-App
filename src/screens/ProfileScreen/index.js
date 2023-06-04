@@ -40,7 +40,7 @@ export default function ProfileScreen() {
             marginHorizontal: "auto"
           }}
         >
-          Josafá Marengo
+          Naomi Kaylani
         </Text>
       </View>
     </View>

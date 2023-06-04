@@ -21,7 +21,7 @@ export default function HomeScreen() {
       }}
       vertical
     >
-      <View style={{marginTop: 15,}}>
+      <View style={{ marginTop: 15, }}>
         <Search onPress={() => setModalVisible(true)} />
       </View>
 
@@ -53,7 +53,7 @@ export default function HomeScreen() {
           margin: 10,
         }}
       >
-        Lojas
+        Restaurants
       </Text>
       <FlatList
         data={restaurants}

@@ -1,12 +1,12 @@
-import { View , Text, Image, StyleSheet, Pressable } from 'react-native';
-import  { useNavigation }  from  '@react-navigation/native' ;
+import { View, Text, Image, StyleSheet, Pressable } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import { MaterialIcons } from '@expo/vector-icons';
 import { formatValue } from '../../utils/formatValues';
 
-const RestaurantItem = ({restaurant}) => {
+const RestaurantItem = ({ restaurant }) => {
   const navigation = useNavigation();
   const onPress = () => {
-    navigation.navigate('Restaurant', {id: restaurant.id});
+    navigation.navigate('Restaurant', { id: restaurant.id });
   };
   return (
     <Pressable onPress={onPress} style={styles.restaurantItem}>
@@ -44,7 +44,7 @@ const RestaurantItem = ({restaurant}) => {
               {formatValue(restaurant.deliveryFee)} •
             </Text>
             <Text style={styles.restaurantTime}>
-              {restaurant.minDeliveryTime}- {restaurant.maxDeliveryTime} min
+              {restaurant.minDeliveryTime} - {restaurant.maxDeliveryTime} min
             </Text>
           </View>
           <View
@@ -78,7 +78,7 @@ const RestaurantItem = ({restaurant}) => {
                   fontSize: 12,
                 }}
               >
-                Cupom de 20%
+                Discount: 20%
               </Text>
             </View>
           </View>
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
   },
-   deliveryFee: {
+  deliveryFee: {
     fontSize: 12,
     fontWeight: '400',
     color: '#777',

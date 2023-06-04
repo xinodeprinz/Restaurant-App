@@ -31,7 +31,7 @@ const BasketScreen = () => {
     <View style={styles.container}>
       <Text style={styles.title}>{restaurant.name}</Text>
 
-      <Text style={styles.subtitle}>Seus pedidos</Text>
+      <Text style={styles.subtitle}>Your Orders</Text>
 
       <Text style={styles.separator} />
 
@@ -48,11 +48,11 @@ const BasketScreen = () => {
           style={styles.buttonBack}
           onPress={goBack}
         >
-          <Text style={styles.buttonText}>Voltar</Text>
+          <Text style={styles.buttonText}>Return</Text>
         </Pressable>
 
         <View style={styles.button}>
-          <Text style={styles.buttonText}>Finalizar compra</Text>
+          <Text style={styles.buttonText}>Checkout</Text>
         </View>
       </View>
     </View>

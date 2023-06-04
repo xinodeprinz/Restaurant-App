@@ -8,7 +8,7 @@
     "orderRestaurantId": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
     "Restaurant": {
       "id": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
-      "name": "El Cabo Coffe Bar Tres De Mayo",
+      "name": "G&G",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant1.jpeg",
       "deliveryFee": 0.039448871531492236,
       "minDeliveryTime": 10,
@@ -37,7 +37,7 @@
     "orderRestaurantId": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
     "Restaurant": {
       "id": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
-      "name": "Jacobs - DuBuque",
+      "name": "Jam Rock",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant1.jpeg",
       "deliveryFee": 0.039448871531492236,
       "minDeliveryTime": 10,
@@ -69,7 +69,7 @@
     "_deleted": null,
     "Restaurant": {
       "id": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
-      "name": "Jacobs - DuBuque",
+      "name": "48 Spice",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant1.jpeg",
       "deliveryFee": 0.039448871531492236,
       "minDeliveryTime": 10,
